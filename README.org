@@ -6,12 +6,14 @@ This is an emacs major mode running the [[https://github.com/d11wtq/boris][boris
 * Heritage
 
 As of now this mode does not contain any real effort by me, other
-than renaming the symbols; all the code is by [[https://github.com/abicky][Takeshi Arabiki]], whos
+than renaming the symbols; all the code is by [[https://github.com/abicky][Takeshi Arabiki]], who's
 [[https://github.com/abicky/nodejs-repl.el][nodejs-repl]] I took to run boris instead of node, making only the
 slight changes needed to get boris running and the buffer working.
 
 * Installation
-
+** Prerequisites
+Not surprisingly you have to have =boris= installed.
+** Install
 Clone the =php-boris= repository in a fitting location (I use
 =.emacs.d/src= for repositories):
 
@@ -19,14 +21,14 @@ Clone the =php-boris= repository in a fitting location (I use
   cd ~/.emacs.d/src
   git clone git://github.com/tomterl/php-boris.git
 #+END_SRC
-
+** Setup
 Add the following to your emacs setup
 
 #+BEGIN_SRC emacs-lisp
   (add-to-list 'load-path (expand-file-name "~/.emacs.d/src/php-boris"))
   (require 'php-boris)
 #+END_SRC
-
+** Configure
 If =boris= is not in your =$PATH=, set the location with
 
 #+BEGIN_SRC emacs-lisp
