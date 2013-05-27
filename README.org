@@ -37,8 +37,7 @@ If =boris= is not in your =$PATH=, set the location with
 
 * Usage
 
-Start boris in a commint buffer with =M-x php-boris=. For keybindings
-see =commint-mode=. 
+Start boris with =M-x php-boris=. For keybindings see =commint-mode=.
 
 * Bugs
 
