@@ -9,8 +9,11 @@
 ;; Based on nodejs-repl.el
 ;; (based on as in "stolen, repainted and sold for new" :-D )
 ;; by Author: Takeshi Arabiki
+;; Maintainer: Tom Regner <tom@goochesa.de>
 ;;
-;; Version: See `php-boris-version'
+;; Version: 0.0.1
+;;          See `php-boris-version'
+;; Keywords: php, commint, repl, boris
 
 ;;  This program is free software: you can redistribute it and/or modify
 ;;  it under the terms of the GNU General Public License as published by
