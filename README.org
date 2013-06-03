@@ -14,6 +14,8 @@ slight changes needed to get boris running and the buffer working.
 ** Prerequisites
 Not surprisingly you have to have =boris= installed.
 ** Install
+
+*** via github
 Clone the =php-boris= repository in a fitting location (I use
 =.emacs.d/src= for repositories):
 
@@ -21,6 +23,10 @@ Clone the =php-boris= repository in a fitting location (I use
   cd ~/.emacs.d/src
   git clone git://github.com/tomterl/php-boris.git
 #+END_SRC
+*** via =list-packages=
+
+=php-boris= is available via [[http://melpa.milkbox.net/][MELPA]].
+
 ** Setup
 Add the following to your emacs setup
 
