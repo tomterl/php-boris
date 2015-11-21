@@ -25,7 +25,7 @@ Clone the =php-boris= repository in a fitting location (I use
 #+END_SRC
 *** via =list-packages=
 
-=php-boris= is available via [[http://melpa.milkbox.net/][MELPA]].
+=php-boris= is available via [[https://melpa.org/][MELPA]].
 
 ** Setup
 Add the following to your emacs setup
