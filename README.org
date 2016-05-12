@@ -1,3 +1,7 @@
+* Maintenance notice
+
+This project is unmaintained, I suggest to use [[http://psysh.org][psysh]] with [[https://github.com/zonuexe/psysh.el][psysh.el]] as a replacement.
+
 * boris REPL in emacs
 
 This is an emacs major mode running the [[https://github.com/d11wtq/boris][boris php REPL]] by [[https://github.com/d11wtq][Chris
